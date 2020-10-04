@@ -25,3 +25,4 @@ In this project, we implement a segmentation CNN that extracts the objects from 
 ### model 2 using transfer learning.
 
 Unet and pre-trained VGG models are used in this project.
+The dataset used is PASCAL VOC 2009 Dataset. This dataset consists of colour images of various scenes with different object classes (e.g. animal: bird, cat, ...; vehicle: aeroplane, bicycle, ...), totalling 20 classes (Figure 1). The dataset has been used as a benchmark for classification, detection and segmentation challenges and for comparing results of individual research.
