@@ -2,10 +2,8 @@
 Binary and Multi Class Semantic Segmentation from scratch and using Transfer Learning.
 
 The main goal of this project is to gain a fundamental understanding of how deep learning can be used in computer vision applications.
-Unet and VGG models are used in this project.
 
 The code is provided in the Jupyter notebook Binary and Multi class Semantic Segmentation.ipynb
-
 
 A segmentation task differs from classification in that we want to label every single pixel in
 the image (not just one label for entire image). Imagine that we are classifying the central
@@ -21,7 +19,9 @@ at the same scale to enhance learning in earlier layers and improve the reconstr
 of feature maps at a higher resolution from feature maps at a lower resolution.
 In this project, we implement a segmentation CNN that extracts the objects from an image. 
 
-##Create two segmentation models: 
+## Create two segmentation models: 
 
-###model 1 trained from scratch, 
-###model 2 using transfer learning.
+### model 1 trained from scratch, 
+### model 2 using transfer learning.
+
+Unet and pre-trained VGG models are used in this project.
